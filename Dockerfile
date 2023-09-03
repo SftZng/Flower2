@@ -1,5 +1,6 @@
 FROM nginx:latest
 
+
 # HTML, CSS ve JavaScript dosyalarını kopyala
 COPY . /usr/share/nginx/html
 # Port 80'i aç
